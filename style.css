@@ -48,6 +48,7 @@ body {
 picture img {
     transform: translate(0rem, -1.5rem);
     width: 100%;
+    padding-bottom: .3rem;
 }
 
 .advice h4 {
@@ -72,6 +73,11 @@ picture img {
     picture img {
         transform: translate(-4.7rem, -1.5rem);
         width: 150%;
+        padding-bottom: .5rem;
+    }
+
+    .card-footer {
+        transform: translate(0rem, 6.5em);
     }
 
 }
