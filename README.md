@@ -1,6 +1,6 @@
 Preview.
 
-![](screenshot.png)
+![](screenshot2.png)
 
 
 ## Table of contents
