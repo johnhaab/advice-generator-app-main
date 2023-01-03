@@ -47,16 +47,13 @@ body {
 
 picture img {
     transform: translate(0rem, -1.5rem);
+    width: 100%;
 }
 
 .advice h4 {
     font-size: .65rem;
     color: var(--main-color);
     font-weight: 600;
-}
-
-.advice-qoute {
-    transition: all .2s ease;
 }
 
 .card-footer {
@@ -69,7 +66,12 @@ picture img {
 
 @media (min-width:300px) and (min-width:1440px) {
     .card {
-        width: 20%;
+        width: 30%;
+    }
+
+    picture img {
+        transform: translate(-4.7rem, -1.5rem);
+        width: 150%;
     }
 
 }

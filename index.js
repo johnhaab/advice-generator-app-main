@@ -20,6 +20,7 @@ fetch(
     id.style.letterSpacing = '3rem;';
     advice.innerText = '"' + adviceObj.advice + '"';
     advice.style.fontWeight = '900';
+    advice.style.fontSize = '1.8rem';
 }).catch(error => {
     console.log(error);
 });
