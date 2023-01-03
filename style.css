@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+    --body-bg: hsl(218, 23%, 16%);
+    --card-bg: hsl(217, 19%, 24%);
+    --main-color: hsl(150, 100%, 66%);
+    --1: hsl(217, 19%, 38%);
+    --main-font: 'Manrope', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--body-bg);
+    color: hsl(193, 38%, 86%);
+    font-family: var(--main-font);
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--card-bg);
+    padding: 2rem 3rem;
+    text-align: center;
+    width: 80%;
+    border-radius: 1rem;
+}
+
+.advice {
+    display: flex;
+    font-size: .65rem;
+    color: var(--main-color);
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+    letter-spacing: .2rem;
+}
+
+picture img {
+    transform: translate(0rem, -1.5rem);
+}
+
+.advice h4 {
+    font-size: .65rem;
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+.advice-qoute {
+    transition: all .2s ease;
+}
+
+.card-footer {
+    padding: 1.1rem 1.2rem;
+    border-radius: 2.5rem;
+    background-color: var(--main-color);
+    transform: translate(0rem, 5.5em);
+    cursor: pointer;
+}
+
+@media (min-width:300px) and (min-width:1440px) {
+    .card {
+        width: 20%;
+    }
+
+}
